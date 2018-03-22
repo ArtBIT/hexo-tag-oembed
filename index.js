@@ -27,7 +27,7 @@ hexo.extend.tag.register('oembed', function(args){
     endpoint = 'https://api.gyazo.com/api/oembed/';
   }else if(opts.url.match(/^http(s?):\/\/codepen\.io\/[\/\w]*$/)){
     endpoint = 'http://codepen.io/api/oembed';
-  }else if(opts.url.match(/^http(s?):\/\/fav\.me\/[\/\w]*$/)){
+  }else if(opts.url.match(/^http(s?):\/\/(fav\.me\/[\/\w]*|\.deviantart\.com/art/\w+-\d+)$/)){
     endpoint = 'https://backend.deviantart.com/oembed';
   }
 

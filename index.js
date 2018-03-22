@@ -27,9 +27,9 @@ hexo.extend.tag.register('oembed', function(args){
     endpoint = 'https://api.gyazo.com/api/oembed/';
   }else if(opts.url.match(/^http(s?):\/\/codepen\.io\/[\/\w]*$/)){
     endpoint = 'http://codepen.io/api/oembed';
-  }else if(opts.url.match(/^http(s?):\/\/(fav\.me\/[\/\w]*|\.deviantart\.com/art/\w+-\d+)$/)){
+  }else if(opts.url.match(/^http(s?):\/\/(fav\.me\/\w+|\w+\.deviantart\.com\/art\/\w+-\d+)$/)){
     endpoint = 'https://backend.deviantart.com/oembed';
-  }else if(opts.url.match(/^http(s?):\/\/probe\.djordjeungar\.com\/song\/[0-9a-zA-Z]+$/)){
+  }else if(opts.url.match(/^http(s?):\/\/probe\.djordjeungar\.com\/song\/\w+$/)){
     endpoint = 'https://probe.djordjeungar.com/oembed';
   }
 

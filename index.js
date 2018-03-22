@@ -29,6 +29,8 @@ hexo.extend.tag.register('oembed', function(args){
     endpoint = 'http://codepen.io/api/oembed';
   }else if(opts.url.match(/^http(s?):\/\/(fav\.me\/[\/\w]*|\.deviantart\.com/art/\w+-\d+)$/)){
     endpoint = 'https://backend.deviantart.com/oembed';
+  }else if(opts.url.match(/^http(s?):\/\/probe\.djordjeungar\.com\/song\/[0-9a-zA-Z]+$/)){
+    endpoint = 'https://probe.djordjeungar.com/oembed';
   }
 
   var getRequest = function(uri){

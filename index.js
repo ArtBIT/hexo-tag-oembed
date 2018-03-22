@@ -22,7 +22,7 @@ hexo.extend.tag.register('oembed', function(args){
   }else if(opts.url.match(/^http(s?):\/\/www\.flickr\.com\/photos\/[-@\w]+\/\d+\/$/)){
     endpoint = 'http://www.flickr.com/services/oembed/';
   }else if(opts.url.match(/^http(s?):\/\/(www\.)?instagram\.com\/p\/\w+\/$/)){
-    endpoint = 'http://api.instagram.com/oembed';
+    endpoint = 'https://api.instagram.com/oembed/';
   }else if(opts.url.match(/^http(s?):\/\/gyazo\.com\/\w*$/)){
     endpoint = 'https://api.gyazo.com/api/oembed/';
   }else if(opts.url.match(/^http(s?):\/\/codepen\.io\/[\/\w]*$/)){

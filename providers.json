@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Twitter",
+        "test": "^http(s?):\\/\\/twitter\\.com\\/(.*)\\/(status|statuses)\\/(\\d+)$",
+        "endpoint": "https://publish.twitter.com/oembed"
+    },
+    {
+        "name": "YouTube",
+        "test": "^http(s?):\\/\\/www\\.youtube\\.com\\/watch\\?v=[-\\w]{11,}$",
+        "endpoint": "http://www.youtube.com/oembed"
+    },
+    {
+        "name": "Vimeo",
+        "test": "^http(s?):\\/\\/vimeo\\.com\\/\\d+$",
+        "endpoint": "http://vimeo.com/api/oembed.json"
+    },
+    {
+        "name": "Flickr",
+        "test": "^http(s?):\\/\\/www\\.flickr\\.com\\/photos\\/[-@\\w]+\\/\\d+\\/$",
+        "endpoint": "http://www.flickr.com/services/oembed/"
+    },
+    {
+        "name": "Instagram",
+        "test": "^http(s?):\\/\\/(www\\.)?instagram\\.com\\/p\\/\\w+\\/$",
+        "endpoint": "https://api.instagram.com/oembed/"
+    },
+    {
+        "name": "Gyazo",
+        "test": "^http(s?):\\/\\/gyazo\\.com\\/\\w*$",
+        "endpoint": "https://api.gyazo.com/api/oembed/"
+    },
+    {
+        "name": "CodePen",
+        "test": "^http(s?):\\/\\/codepen\\.io\\/[\\/\\w]*$",
+        "endpoint": "http://codepen.io/api/oembed"
+    },
+    {
+        "name": "DeviantArt",
+        "test": "^http(s?):\\/\\/(fav\\.me\\/\\w+|\\w+\\.deviantart\\.com\\/art\\/\\w+-\\d+)$",
+        "endpoint": "https://backend.deviantart.com/oembed"
+    },
+    {
+        "name": "Imgur",
+        "test": "^http(s?)://imgur\\.com/[0-9a-zA-Z]+$",
+        "endpoint": "https://api.imgur.com/oembed.json"
+    },
+    {
+        "name": "SoundCloud",
+        "test": "^http(s?)://soundcloud\\.com/[0-9a-zA-Z-]+/[0-9a-zA-Z-]+$",
+        "endpoint": "http://soundcloud.com/oembed"
+    },
+    {
+        "name": "Histerijino Pozorje",
+        "test": "^http(s?):\\/\\/probe\\.djordjeungar\\.com\\/song\\/\\w+$",
+        "endpoint": "https://probe.djordjeungar.com/oembed"
+    }
+]

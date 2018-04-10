@@ -23,6 +23,10 @@ hexo.extend.tag.register('oembed', function(args){
           break;
       }
   }
+  
+  if (!endpoint) {
+      return;
+  }
 
   var getRequest = function(uri){
     return requestpromise({

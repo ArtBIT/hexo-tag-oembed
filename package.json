@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/monsier-oui/hexo-tag-oembed.git"
+    "url": "git+https://github.com/ArtBIT/hexo-tag-oembed.git"
   },
   "keywords": [
     "hexo",
     "plugin"
   ],
-  "author": "oui",
+  "author": "ArtBIT",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/monsier-oui/hexo-tag-oembed/issues"
+    "url": "https://github.com/ArtBIT/hexo-tag-oembed/issues"
   },
-  "homepage": "https://github.com/monsier-oui/hexo-tag-oembed#readme",
+  "homepage": "https://github.com/ArtBIT/hexo-tag-oembed#readme",
   "dependencies": {
     "request-promise": "^4.1.1"
   }

@@ -56,7 +56,7 @@
     },
     {
         "name": "Tumblr",
-        "test": "^http(s?):\\/\\/[0-9a-zA-Z-_]+\\.tumblr\\.com\\/post\\/\\d+$",
+        "test": "^http(s?):\\/\\/[0-9a-zA-Z-_]+\\.tumblr\\.com\\/post\\/\\d+(/.*)?$",
         "endpoint": "https://www.tumblr.com/oembed/1.0"
     }
 ]
